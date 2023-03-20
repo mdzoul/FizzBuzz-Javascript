@@ -18,7 +18,6 @@ function fizzBuzz() {
         output.push(n++);
         return output;
     }
-   
 }
 
 var chosenNumber = Number(prompt("Choose a number:"));
