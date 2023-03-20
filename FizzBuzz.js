@@ -21,6 +21,8 @@ function fizzBuzz() {
    
 }
 
-while (n !== 101) {
-    fizzBuzz()
+var chosenNumber = Number(prompt("Choose a number:"));
+
+while (n !== (chosenNumber + 1)) {
+    fizzBuzz();
 }
